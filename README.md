@@ -1,12 +1,14 @@
-#Task Description:
+# Task Description:
 
-##Backend (Python or NodeJS with MongoDB):
+## Backend (Python or NodeJS with MongoDB):
+
 · Load some default information cards into the DB. It can also include Social Media Profiles (e.g., Facebook, Twitter, Instagram, etc.).
 · These cards should include a title, content, timestamp, and details.
 · Implement a mechanism to monitor the information added to DB for specific keywords, location or attribute. When a hit occurs, the keyword is found in a document, an alert should be shown in real-time in UI.
 · Store the Information Card and alerts in the MongoDB.
 
-##Frontend (React):
+## Frontend (React):
+
 · Develop an Icon Based User interface (UI) using React to Create and View Alerts as a base component.
 · Each type of Alert is a component with parameters. Users can drop different types of alerts onto an Alert Component. The Type of Alert Components are Keyword, Location and Attribute components.
 · Each Component has fields or attributes that can be added for creating Alerts. For example, when a keyword is added for an alert, you can also add attributes or other keywords. The system should monitor the documents associated with that keyword or attributes.
